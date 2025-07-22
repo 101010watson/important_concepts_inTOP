@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="multiple_class.css">
+</head>
+<body>
+
+<h2>Multiple Classes Demo</h2>
+
+<!-- Basic alerts with just base + severity -->
+<div class="alert-text info">
+  This is an info alert with base styling + blue colors
+</div>
+
+<div class="alert-text warning">
+  This is a warning alert with base styling + yellow colors
+</div>
+
+<div class="alert-text severe-alert">
+  This is a severe alert with base styling + red colors + uppercase
+</div>
+
+<hr>
+
+<!-- Now combining with size modifiers -->
+<div class="alert-text info large">
+  This is a LARGE info alert (base + blue + large size)
+</div>
+
+<div class="alert-text warning small">
+  This is a small warning alert (base + yellow + small size)
+</div>
+
+<div class="alert-text severe-alert large">
+  THIS IS A LARGE SEVERE ALERT (base + red + uppercase + large size)
+</div>
+
+<hr>
+
+<h3>What's happening:</h3>
+<ul>
+  <li><strong>.alert-text</strong> = base styles (padding, border-radius, margin, font-weight)</li>
+  <li><strong>.info/.warning/.severe-alert</strong> = different colors and severity effects</li>
+  <li><strong>.large/.small</strong> = size modifications</li>
+  <li><strong>Multiple classes</strong> = mix and match these features!</li>
+</ul>
+
+<p>Without multiple classes, you'd need separate classes like:<br>
+.large-info-alert, .small-warning-alert, .large-severe-alert, etc.<br>
+That would be 12+ classes instead of just 6!</p>
+
+</body>
+</html>

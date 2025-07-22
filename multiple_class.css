@@ -1,0 +1,39 @@
+/* Base alert styles that ALL alerts share */
+.alert-text {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Different severity levels */
+.info {
+  background-color: lightblue;
+  border: 1px solid blue;
+  color: darkblue;
+}
+
+.warning {
+  background-color: lightyellow;
+  border: 1px solid orange;
+  color: darkorange;
+}
+
+.severe-alert {
+  background-color: lightcoral;
+  border: 1px solid red;
+  color: darkred;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Size modifiers */
+.large {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.small {
+  padding: 5px;
+  font-size: 12px;
+}
